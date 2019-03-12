@@ -1,0 +1,12 @@
+C:\Workspaces\OAI_TEST\Labs\AlyaIlliashenko\MobilePhone.BL\MobilePhone.BL\bin\Debug\MobilePhone.BL.dll
+C:\Workspaces\OAI_TEST\Labs\AlyaIlliashenko\MobilePhone.BL\MobilePhone.BL\bin\Debug\MobilePhone.BL.pdb
+C:\Workspaces\OAI_TEST\Labs\AlyaIlliashenko\MobilePhone.BL\MobilePhone.BL\obj\Debug\MobilePhone.BL.csprojResolveAssemblyReference.cache
+C:\Workspaces\OAI_TEST\Labs\AlyaIlliashenko\MobilePhone.BL\MobilePhone.BL\obj\Debug\MobilePhone.BL.dll
+C:\Workspaces\OAI_TEST\Labs\AlyaIlliashenko\MobilePhone.BL\MobilePhone.BL\obj\Debug\MobilePhone.BL.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone.BL\MobilePhone.BL\bin\Debug\MobilePhone.BL.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone.BL\MobilePhone.BL\bin\Debug\MobilePhone.BL.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone.BL\MobilePhone.BL\obj\Debug\MobilePhone.BL.csprojResolveAssemblyReference.cache
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone.BL\MobilePhone.BL\obj\Debug\MobilePhone.BL.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone.BL\MobilePhone.BL\obj\Debug\MobilePhone.BL.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone.BL\MobilePhone.BL\bin\Debug\UnitMeasures.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone.BL\MobilePhone.BL\bin\Debug\UnitMeasures.pdb

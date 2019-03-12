@@ -1,0 +1,5 @@
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone.BL\UnitMeasures\bin\Debug\UnitMeasures.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone.BL\UnitMeasures\bin\Debug\UnitMeasures.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone.BL\UnitMeasures\obj\Debug\UnitMeasures.csprojResolveAssemblyReference.cache
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone.BL\UnitMeasures\obj\Debug\UnitMeasures.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone.BL\UnitMeasures\obj\Debug\UnitMeasures.pdb
