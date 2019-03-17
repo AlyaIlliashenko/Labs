@@ -30,6 +30,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NGenericDimensions">
+      <HintPath>..\Libs\NGenericDimensions.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -54,12 +57,6 @@
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\codecracker.CSharp.1.1.0\analyzers\dotnet\cs\CodeCracker.CSharp.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\UnitMeasures\UnitMeasures.csproj">
-      <Project>{ff7a8e92-1d49-45b1-8fe0-ec994da19be0}</Project>
-      <Name>UnitMeasures</Name>
-    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

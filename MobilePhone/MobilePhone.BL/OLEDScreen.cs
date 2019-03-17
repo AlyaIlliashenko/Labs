@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using UnitMeasures;
 
 namespace MobilePhone.BL
 {
@@ -13,14 +12,13 @@ namespace MobilePhone.BL
         public OLEDScreen()
         {
             Technology = "OLED";
-            ViewingAngle = new Angle(3.14);
             __instantResponse = true;
         }
         public override string ToString()
         {
             var showBuilder = new StringBuilder();
             var baseString = base.ToString();
-            showBuilder.AppendLine(baseString + $"Screen InstantResponse : {__instantResponse.ToString()}");
+            showBuilder.AppendLine(baseString + $"Screen InstantResponse: {__instantResponse.ToString()}");
             return showBuilder.ToString();
         }
     }

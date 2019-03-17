@@ -6,9 +6,6 @@ namespace MobilePhone.BL
     {
         public CultureInfo KeyBoardCulture { get; set; }
 
-        public override string ToString()
-        {
-            return ($"KeyBoard Culture: {KeyBoardCulture.ToString()}");
-        }
+        public override string ToString() => ($"KeyBoard Culture: {KeyBoardCulture.ToString()}");
     }
 }

@@ -3,7 +3,6 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MobilePhone.BL;
 using System.Text;
 using System.Globalization;
-using UnitMeasures;
 
 namespace MobilePhone.BLTest
 {
@@ -16,27 +15,21 @@ namespace MobilePhone.BLTest
         {
             // -- Arrange
             var mobilePhone = new SimCorpMobile();
-            string expected = ($"KeyBoard Culture: {CultureInfo.CurrentCulture}");
-            expected += "\n";
-            expected += ($"Battery Use Duration: 36000Second(s)");
-            expected += "\n";
-            expected += ($"Screen Technology: OLED");
-            expected += "\n";
-            expected += ($"Screen Weight: 0.188Kg(s)");
-            expected += "\n";
-            expected += ($"Screen Hight: 1.17Meter(s)");
-            expected += "\n";
-            expected += ($"Screen Width: 0.07Meter(s)");
-            expected += "\n";
-            expected += ($"Screen Viewing Angle: 3.14Radian(s)");
-            expected += "\n";
-            expected += ($"Screen InstantResponse : True");
+            var showBuilder = new StringBuilder();
+            showBuilder.AppendLine($"KeyBoard Culture: {CultureInfo.CurrentCulture}");
+            showBuilder.AppendLine($"Battery Use Duration: 10:30:00");
+            showBuilder.AppendLine($"Screen Technology: OLED");
+            showBuilder.AppendLine($"Screen Weight: 0.188 Kilograms");
+            showBuilder.AppendLine($"Screen Hight: 0.17 Metres");
+            showBuilder.AppendLine($"Screen Width: 0.07 Metres");
+            showBuilder.AppendLine($"Screen InstantResponse: True");
+            string expected = showBuilder.ToString().Trim();
 
             // -- Act 
             string actual = mobilePhone.ToString();
 
             // -- Assert
-            Assert.AreNotEqual(expected, actual.Trim());
+            Assert.AreEqual(expected, actual.Trim());
         }
     }
 }
