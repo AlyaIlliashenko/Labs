@@ -5,11 +5,13 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePhone.BL", "MobilePhone.BL\MobilePhone.BL.csproj", "{48707CFE-141D-4FF0-819C-A55D4BCF52A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mobile.Phone.UI", "Mobile.Phone.UI\Mobile.Phone.UI.csproj", "{E14BCF2B-83C7-4749-A71E-1CEEDA7AA735}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePhone.UI", "Mobile.Phone.UI\MobilePhone.UI.csproj", "{E14BCF2B-83C7-4749-A71E-1CEEDA7AA735}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{F72D26CC-236D-4197-87A8-28CBAD148970}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePhone.BLTest", "MobilePhone.BLTest\MobilePhone.BLTest.csproj", "{5A82BD06-19BB-4F51-9D6F-587A361D64AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaybackComponent.UI", "PlaybackComponent.UI\PlaybackComponent.UI.csproj", "{B4EFA29B-97F3-451A-81E8-B0CE6E944887}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,6 +31,10 @@ Global
 		{5A82BD06-19BB-4F51-9D6F-587A361D64AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5A82BD06-19BB-4F51-9D6F-587A361D64AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5A82BD06-19BB-4F51-9D6F-587A361D64AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4EFA29B-97F3-451A-81E8-B0CE6E944887}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4EFA29B-97F3-451A-81E8-B0CE6E944887}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4EFA29B-97F3-451A-81E8-B0CE6E944887}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4EFA29B-97F3-451A-81E8-B0CE6E944887}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

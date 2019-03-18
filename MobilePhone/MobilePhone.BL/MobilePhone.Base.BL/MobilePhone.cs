@@ -20,5 +20,11 @@ namespace MobilePhone.BL
             showBuilder.AppendLine(Screen.ToString());
             return showBuilder.ToString();
         }
+
+        public void Play(IPlayback playbackDevice,IOutput output)
+        {
+            output.WriteLine("Play sound in Mobile");
+            playbackDevice.Play();
+        }
     }
 }

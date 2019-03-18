@@ -1,0 +1,11 @@
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\Mobile.Phone.UI\bin\Debug\Mobile.Phone.UI.exe.config
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\Mobile.Phone.UI\bin\Debug\Mobile.Phone.UI.exe
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\Mobile.Phone.UI\bin\Debug\Mobile.Phone.UI.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\Mobile.Phone.UI\bin\Debug\MobilePhone.BL.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\Mobile.Phone.UI\bin\Debug\NGenericDimensions.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\Mobile.Phone.UI\bin\Debug\MobilePhone.BL.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\Mobile.Phone.UI\bin\Debug\NGenericDimensions.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\Mobile.Phone.UI\bin\Debug\NGenericDimensions.xml
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\Mobile.Phone.UI\obj\Debug\MobilePhone.Console.UI.csprojResolveAssemblyReference.cache
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\Mobile.Phone.UI\obj\Debug\Mobile.Phone.UI.exe
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\Mobile.Phone.UI\obj\Debug\Mobile.Phone.UI.pdb

@@ -1,0 +1,16 @@
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\bin\Debug\PlaybackComponent.UI.exe.config
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\obj\Debug\PlaybackComponent.UI.exe
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\obj\Debug\PlaybackComponent.UI.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\bin\Debug\PlaybackComponent.UI.exe
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\bin\Debug\PlaybackComponent.UI.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\obj\Debug\PlaybackComponent.UI.csprojResolveAssemblyReference.cache
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\obj\Debug\PlaybackComponent.UI.formPlaybackComponent.resources
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\obj\Debug\PlaybackComponent.UI.Properties.Resources.resources
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\obj\Debug\PlaybackComponent.UI.csproj.GenerateResource.Cache
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\bin\Debug\Mobile.Phone.UI.exe
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\bin\Debug\MobilePhone.BL.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\bin\Debug\NGenericDimensions.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\bin\Debug\Mobile.Phone.UI.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\bin\Debug\MobilePhone.BL.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\bin\Debug\NGenericDimensions.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\bin\Debug\NGenericDimensions.xml

@@ -31,5 +31,20 @@ namespace MobilePhone.BLTest
             // -- Assert
             Assert.AreEqual(expected, actual.Trim());
         }
+        [TestMethod]
+        public void PhoneHeadsetPlayTest()
+        {
+            // -- Arrange
+            var output = new FakeOutput();
+            var phoneHeadset = new PhoneHeadset(output);
+            var expected = "fake PhoneHeadset sound";
+
+            // -- Act 
+            phoneHeadset.Play();
+            var actual = output.FakeOutputString;
+
+            // -- Assert
+            Assert.AreEqual(expected, actual);
+        }
     }
 }

@@ -15,6 +15,7 @@ namespace MobilePhone.BL
         private readonly OLEDScreen __OLEDScreen;
         private readonly KeyBoard __keyBoard;
         private readonly Battery __battery;
+
         public SimCorpMobile()
         {
             __OLEDScreen = new OLEDScreen

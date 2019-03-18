@@ -1,0 +1,9 @@
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\bin\Debug\PlaybackComponent.UI.exe.config
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\bin\Debug\PlaybackComponent.UI.exe
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\bin\Debug\PlaybackComponent.UI.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\obj\Debug\MobilePhone.WinForm.UI.csprojResolveAssemblyReference.cache
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\obj\Debug\PlaybackComponent.UI.formMobilePhone.resources
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\obj\Debug\PlaybackComponent.UI.Properties.Resources.resources
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\obj\Debug\MobilePhone.WinForm.UI.csproj.GenerateResource.Cache
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\obj\Debug\PlaybackComponent.UI.exe
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\obj\Debug\PlaybackComponent.UI.pdb
