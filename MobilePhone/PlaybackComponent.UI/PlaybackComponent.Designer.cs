@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.buttonApplyPlaybackComps = new System.Windows.Forms.Button();
             this.textBoxPlaybackCompInfo = new System.Windows.Forms.TextBox();
             this.comboBoxSelectPlaybackComp = new System.Windows.Forms.ComboBox();
-            this.buttonApplyPlaybackComps = new System.Windows.Forms.Button();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -47,26 +47,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Select playback components:";
             // 
-            // textBoxPlaybackCompInfo
-            // 
-            this.textBoxPlaybackCompInfo.Location = new System.Drawing.Point(12, 53);
-            this.textBoxPlaybackCompInfo.Multiline = true;
-            this.textBoxPlaybackCompInfo.Name = "textBoxPlaybackCompInfo";
-            this.textBoxPlaybackCompInfo.Size = new System.Drawing.Size(382, 138);
-            this.textBoxPlaybackCompInfo.TabIndex = 1;
-            // 
-            // comboBoxSelectPlaybackComp
-            // 
-            this.comboBoxSelectPlaybackComp.FormattingEnabled = true;
-            this.comboBoxSelectPlaybackComp.Items.AddRange(new object[] {
-            "PhoneHeadset",
-            "PhoneSpeaker"});
-            this.comboBoxSelectPlaybackComp.Location = new System.Drawing.Point(12, 26);
-            this.comboBoxSelectPlaybackComp.Name = "comboBoxSelectPlaybackComp";
-            this.comboBoxSelectPlaybackComp.Size = new System.Drawing.Size(167, 21);
-            this.comboBoxSelectPlaybackComp.TabIndex = 0;
-            this.comboBoxSelectPlaybackComp.SelectedIndexChanged += new System.EventHandler(this.comboBoxSelectPlaybackComp_SelectedIndexChanged);
-            // 
             // buttonApplyPlaybackComps
             // 
             this.buttonApplyPlaybackComps.AllowDrop = true;
@@ -80,12 +60,34 @@
             this.buttonApplyPlaybackComps.UseVisualStyleBackColor = false;
             this.buttonApplyPlaybackComps.Click += new System.EventHandler(this.buttonApplyPlaybackComp_Click);
             // 
+            // textBoxPlaybackCompInfo
+            // 
+            this.textBoxPlaybackCompInfo.Location = new System.Drawing.Point(12, 53);
+            this.textBoxPlaybackCompInfo.Multiline = true;
+            this.textBoxPlaybackCompInfo.Name = "textBoxPlaybackCompInfo";
+            this.textBoxPlaybackCompInfo.Size = new System.Drawing.Size(382, 138);
+            this.textBoxPlaybackCompInfo.TabIndex = 1;
+            // 
+            // comboBoxSelectPlaybackComp
+            // 
+            this.comboBoxSelectPlaybackComp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.comboBoxSelectPlaybackComp.FormattingEnabled = true;
+            this.comboBoxSelectPlaybackComp.Items.AddRange(new object[] {
+            "PhoneHeadset",
+            "PhoneSpeaker"});
+            this.comboBoxSelectPlaybackComp.Location = new System.Drawing.Point(12, 26);
+            this.comboBoxSelectPlaybackComp.Name = "comboBoxSelectPlaybackComp";
+            this.comboBoxSelectPlaybackComp.Size = new System.Drawing.Size(167, 21);
+            this.comboBoxSelectPlaybackComp.TabIndex = 0;
+            this.comboBoxSelectPlaybackComp.SelectedIndexChanged += new System.EventHandler(this.comboBoxSelectPlaybackComp_SelectedIndexChanged);
+            // 
             // formPlaybackComponent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(633, 239);
             this.Controls.Add(this.groupBox2);
+            this.MaximizeBox = false;
             this.Name = "formPlaybackComponent";
             this.Text = "PlaybackComponent";
             this.Load += new System.EventHandler(this.MobilePhone_Load);
