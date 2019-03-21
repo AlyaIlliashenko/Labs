@@ -20,9 +20,10 @@ namespace MobilePhone.UI
             consoleOutput.WriteLine("Select playback component(select index):");
             consoleOutput.WriteLine($"{(int)PlaybackDeviceType.PhoneHeadset} - {PlaybackDeviceType.PhoneHeadset.ToString()}");
             consoleOutput.WriteLine($"{(int)PlaybackDeviceType.PhoneSpeaker} - {PlaybackDeviceType.PhoneSpeaker.ToString()}");
-            var playableDeviceType = Convert.ToInt32(Console.ReadLine());
+            var playableDeviceTypeString = Console.ReadLine();
             try
             {
+                var playableDeviceType = CallTryParse(playableDeviceTypeString);
                 var playbackDevice = PlaybackDeviceFactory.CreatePlaybackDevice((PlaybackDeviceType)playableDeviceType, consoleOutput);
                 /// Method Injection
                 /// Inject the dependency into a single method and generally for the use of that method
@@ -36,6 +37,17 @@ namespace MobilePhone.UI
             }
 
             Console.ReadKey();
+        }
+
+        private static int CallTryParse(string stringToConvert)
+        {
+            int convertedNumber;
+            var success = Int32.TryParse(stringToConvert, out convertedNumber);
+            if (!success)
+            {
+                throw new ArgumentException("Unexpected index!");
+            }
+            return convertedNumber;
         }
     }
 }
