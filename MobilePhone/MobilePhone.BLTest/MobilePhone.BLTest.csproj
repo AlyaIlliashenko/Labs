@@ -36,6 +36,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
   </ItemGroup>
   <Choose>
     <When Condition="('$(VisualStudioVersion)' == '10.0' or '$(VisualStudioVersion)' == '') and '$(TargetFrameworkVersion)' == 'v3.5'">
@@ -55,9 +56,17 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\MessageFormatting.UI\MessageFormatting.UI.csproj">
+      <Project>{7bf441ff-af0f-4a90-b1e5-8a74d0a5f7fe}</Project>
+      <Name>MessageFormatting.UI</Name>
+    </ProjectReference>
     <ProjectReference Include="..\MobilePhone.BL\MobilePhone.BL.csproj">
       <Project>{48707cfe-141d-4ff0-819c-a55d4bcf52a2}</Project>
       <Name>MobilePhone.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MobilePhone.Common\MobilePhone.Common.csproj">
+      <Project>{e2ce3886-7ce4-4d95-8a7d-3bc05c054037}</Project>
+      <Name>MobilePhone.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <Choose>

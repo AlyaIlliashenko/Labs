@@ -34,6 +34,7 @@ namespace MobilePhone.BL
             {
                 BatteryUseDuration = new TimeSpan(10, 30, 0)
             };
+
         }
 
         public override ScreenBase Screen => __OLEDScreen; 
@@ -45,4 +46,4 @@ namespace MobilePhone.BL
         public ConsoleColor ImageColor => ConsoleColor.Magenta;
 
     }
-   }
+}

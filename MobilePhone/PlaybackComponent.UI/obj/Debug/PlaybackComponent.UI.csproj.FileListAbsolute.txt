@@ -14,3 +14,5 @@ C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\bin\Debug\Mo
 C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\bin\Debug\MobilePhone.BL.pdb
 C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\bin\Debug\NGenericDimensions.pdb
 C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\bin\Debug\NGenericDimensions.xml
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\bin\Debug\MobilePhone.Common.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\PlaybackComponent.UI\bin\Debug\MobilePhone.Common.pdb

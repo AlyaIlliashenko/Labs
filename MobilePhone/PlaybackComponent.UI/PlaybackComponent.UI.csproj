@@ -54,7 +54,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="WinFormOutput.cs" />
     <EmbeddedResource Include="PlaybackComponent.resx">
       <DependentUpon>PlaybackComponent.cs</DependentUpon>
     </EmbeddedResource>
@@ -88,6 +87,10 @@
     <ProjectReference Include="..\MobilePhone.BL\MobilePhone.BL.csproj">
       <Project>{48707cfe-141d-4ff0-819c-a55d4bcf52a2}</Project>
       <Name>MobilePhone.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\MobilePhone.Common\MobilePhone.Common.csproj">
+      <Project>{e2ce3886-7ce4-4d95-8a7d-3bc05c054037}</Project>
+      <Name>MobilePhone.Common</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

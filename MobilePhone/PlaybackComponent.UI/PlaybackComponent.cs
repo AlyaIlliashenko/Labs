@@ -1,5 +1,6 @@
 ﻿using MobilePhone.BL;
 using MobilePhone.UI;
+using MobilePhone.Common;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -31,7 +32,7 @@ namespace PlaybackComponent.UI
 
         private void buttonApplyPlaybackComp_Click(object sender, EventArgs e)
         {
-            textBoxPlaybackCompInfo.Clear();
+            richTextBoxPlaybackCompInfo.Clear();
             string selectedItem = comboBoxSelectPlaybackComp.Text;
             var playableDeviceType = PlaybackDeviceType.None;
             if (selectedItem == "PhoneHeadset")
@@ -43,7 +44,7 @@ namespace PlaybackComponent.UI
                 playableDeviceType = PlaybackDeviceType.PhoneSpeaker;
             }
 
-            IOutput winformOutput = new WinFormOutput(textBoxPlaybackCompInfo);
+            IOutput winformOutput = new WinFormOutput(richTextBoxPlaybackCompInfo);
             if (playableDeviceType != PlaybackDeviceType.None)
             {
                 var mobilePhone = new SimCorpMobile();

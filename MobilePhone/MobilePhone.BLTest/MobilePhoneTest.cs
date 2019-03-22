@@ -1,6 +1,8 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MobilePhone.BL;
+using MobilePhone.Common;
+using MessageFormatting.UI;
 using System.Text;
 using System.Globalization;
 
@@ -10,7 +12,7 @@ namespace MobilePhone.BLTest
     public class SimCorpMobilePhoneTest
     {
 
-    [TestMethod]
+        [TestMethod]
         public void MobilePhoneToStringTest()
         {
             // -- Arrange
@@ -45,6 +47,38 @@ namespace MobilePhone.BLTest
 
             // -- Assert
             Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void SetMessageFormatTest()
+        {
+            // -- Arrange
+            string message = "simcorp test";
+            MessageFormat format = MessageFormat.Uppercase;
+            var expected = "SIMCORP TEST";
+
+            // -- Act
+            var actual = FormMessageFormating.SetMessageFormat(message, format);
+
+            // -- Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void RaiseEventTest()
+        {
+            // -- Arrange
+            var mobilePhone = new SimCorpMobile();
+            var meessage = "SimCorp";
+            string actual = null;
+
+            // -- Act
+            mobilePhone.SMSProviderService.SMSRecieved += (m) => actual = m ; 
+            mobilePhone.SMSProviderService.OnSMSRecieved(meessage);
+
+            // -- Assert
+            Assert.IsNotNull(actual);
+            Assert.AreEqual("SimCorp", actual);
         }
     }
 }

@@ -1,0 +1,16 @@
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MessageFormatting.UI\bin\Debug\MessageFormatting.UI.exe.config
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MessageFormatting.UI\bin\Debug\MessageFormatting.UI.exe
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MessageFormatting.UI\bin\Debug\MessageFormatting.UI.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MessageFormatting.UI\obj\Debug\MessageFormatting.UI.csprojResolveAssemblyReference.cache
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MessageFormatting.UI\obj\Debug\MessageFormatting.UI.FormMessageFormating.resources
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MessageFormatting.UI\obj\Debug\MessageFormatting.UI.Properties.Resources.resources
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MessageFormatting.UI\obj\Debug\MessageFormatting.UI.csproj.GenerateResource.Cache
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MessageFormatting.UI\obj\Debug\MessageFormatting.UI.exe
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MessageFormatting.UI\obj\Debug\MessageFormatting.UI.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MessageFormatting.UI\bin\Debug\MobilePhone.BL.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MessageFormatting.UI\bin\Debug\MobilePhone.Common.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MessageFormatting.UI\bin\Debug\NGenericDimensions.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MessageFormatting.UI\bin\Debug\MobilePhone.BL.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MessageFormatting.UI\bin\Debug\MobilePhone.Common.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MessageFormatting.UI\bin\Debug\NGenericDimensions.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MessageFormatting.UI\bin\Debug\NGenericDimensions.xml

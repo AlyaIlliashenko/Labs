@@ -30,15 +30,15 @@
         {
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.buttonApplyPlaybackComps = new System.Windows.Forms.Button();
-            this.textBoxPlaybackCompInfo = new System.Windows.Forms.TextBox();
             this.comboBoxSelectPlaybackComp = new System.Windows.Forms.ComboBox();
+            this.richTextBoxPlaybackCompInfo = new System.Windows.Forms.RichTextBox();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox2
             // 
+            this.groupBox2.Controls.Add(this.richTextBoxPlaybackCompInfo);
             this.groupBox2.Controls.Add(this.buttonApplyPlaybackComps);
-            this.groupBox2.Controls.Add(this.textBoxPlaybackCompInfo);
             this.groupBox2.Controls.Add(this.comboBoxSelectPlaybackComp);
             this.groupBox2.Location = new System.Drawing.Point(10, 12);
             this.groupBox2.Name = "groupBox2";
@@ -60,14 +60,6 @@
             this.buttonApplyPlaybackComps.UseVisualStyleBackColor = false;
             this.buttonApplyPlaybackComps.Click += new System.EventHandler(this.buttonApplyPlaybackComp_Click);
             // 
-            // textBoxPlaybackCompInfo
-            // 
-            this.textBoxPlaybackCompInfo.Location = new System.Drawing.Point(12, 53);
-            this.textBoxPlaybackCompInfo.Multiline = true;
-            this.textBoxPlaybackCompInfo.Name = "textBoxPlaybackCompInfo";
-            this.textBoxPlaybackCompInfo.Size = new System.Drawing.Size(382, 138);
-            this.textBoxPlaybackCompInfo.TabIndex = 1;
-            // 
             // comboBoxSelectPlaybackComp
             // 
             this.comboBoxSelectPlaybackComp.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -81,6 +73,14 @@
             this.comboBoxSelectPlaybackComp.TabIndex = 0;
             this.comboBoxSelectPlaybackComp.SelectedIndexChanged += new System.EventHandler(this.comboBoxSelectPlaybackComp_SelectedIndexChanged);
             // 
+            // richTextBoxPlaybackCompInfo
+            // 
+            this.richTextBoxPlaybackCompInfo.Location = new System.Drawing.Point(12, 53);
+            this.richTextBoxPlaybackCompInfo.Name = "richTextBoxPlaybackCompInfo";
+            this.richTextBoxPlaybackCompInfo.Size = new System.Drawing.Size(382, 162);
+            this.richTextBoxPlaybackCompInfo.TabIndex = 4;
+            this.richTextBoxPlaybackCompInfo.Text = "";
+            // 
             // formPlaybackComponent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -92,16 +92,15 @@
             this.Text = "PlaybackComponent";
             this.Load += new System.EventHandler(this.MobilePhone_Load);
             this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
 
         }
 
         #endregion
         private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.TextBox textBoxPlaybackCompInfo;
         private System.Windows.Forms.ComboBox comboBoxSelectPlaybackComp;
         private System.Windows.Forms.Button buttonApplyPlaybackComps;
+        private System.Windows.Forms.RichTextBox richTextBoxPlaybackCompInfo;
     }
 }
 

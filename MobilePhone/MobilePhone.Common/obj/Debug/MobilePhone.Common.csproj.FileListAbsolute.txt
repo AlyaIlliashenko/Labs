@@ -1,0 +1,10 @@
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.Common\bin\Debug\MobilePhone.Common.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.Common\bin\Debug\MobilePhone.Common.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.Common\bin\Debug\MobilePhone.BL.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.Common\bin\Debug\NGenericDimensions.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.Common\bin\Debug\MobilePhone.BL.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.Common\bin\Debug\NGenericDimensions.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.Common\bin\Debug\NGenericDimensions.xml
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.Common\obj\Debug\MobilePhone.Common.csprojResolveAssemblyReference.cache
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.Common\obj\Debug\MobilePhone.Common.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.Common\obj\Debug\MobilePhone.Common.pdb

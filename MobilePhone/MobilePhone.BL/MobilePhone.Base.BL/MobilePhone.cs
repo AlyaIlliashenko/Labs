@@ -12,6 +12,12 @@ namespace MobilePhone.BL
         public abstract Battery Battery { get;  }
         public abstract ScreenBase Screen { get; }
 
+        public SMSProvider SMSProviderService
+        {
+            get { return SMSProvider.GetInstance() ; }
+        }
+
+
         public override string ToString()
         {
             var showBuilder = new StringBuilder();
@@ -26,5 +32,6 @@ namespace MobilePhone.BL
             output.WriteLine("Play sound in Mobile");
             playbackDevice.Play();
         }
+
     }
 }
