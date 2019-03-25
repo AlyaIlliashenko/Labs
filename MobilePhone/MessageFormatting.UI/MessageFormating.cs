@@ -32,11 +32,17 @@ namespace MessageFormatting.UI
 
         private void buttonCancel_Click(object sender, EventArgs e)
         {
+            buttonCancel.Enabled = false;
+            buttonStart.Enabled = true;
+
             backgroundWorkerMessageReciecer.CancelAsync();
         }
 
         private void buttonStart_Click(object sender, EventArgs e)
         {
+            buttonStart.Enabled = false;
+            buttonCancel.Enabled = true;
+
             backgroundWorkerMessageReciecer.RunWorkerAsync();
         }
 

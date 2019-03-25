@@ -65,6 +65,7 @@
             // 
             // buttonCancel
             // 
+            this.buttonCancel.Enabled = false;
             this.buttonCancel.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonCancel.Location = new System.Drawing.Point(295, 51);
             this.buttonCancel.Name = "buttonCancel";
