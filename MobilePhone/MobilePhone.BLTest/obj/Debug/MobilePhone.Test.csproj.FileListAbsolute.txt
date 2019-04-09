@@ -1,0 +1,16 @@
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.BLTest\bin\Debug\MobilePhone.BLTest.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.BLTest\bin\Debug\MobilePhone.BLTest.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.BLTest\bin\Debug\MessageFormatting.UI.exe
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.BLTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.BLTest\bin\Debug\MobilePhone.BL.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.BLTest\bin\Debug\MobilePhone.Common.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.BLTest\bin\Debug\NGenericDimensions.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.BLTest\bin\Debug\MessageFormatting.UI.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.BLTest\bin\Debug\MobilePhone.BL.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.BLTest\bin\Debug\MobilePhone.Common.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.BLTest\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.xml
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.BLTest\bin\Debug\NGenericDimensions.pdb
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.BLTest\bin\Debug\NGenericDimensions.xml
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.BLTest\obj\Debug\MobilePhone.Test.csprojResolveAssemblyReference.cache
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.BLTest\obj\Debug\MobilePhone.BLTest.dll
+C:\Workspaces\AlyaIlliashenko\Labs\MobilePhone\MobilePhone.BLTest\obj\Debug\MobilePhone.BLTest.pdb

@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePhone.UI", "Mobile.Ph
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{F72D26CC-236D-4197-87A8-28CBAD148970}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePhone.BLTest", "MobilePhone.BLTest\MobilePhone.BLTest.csproj", "{5A82BD06-19BB-4F51-9D6F-587A361D64AF}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobilePhone.Test", "MobilePhone.BLTest\MobilePhone.Test.csproj", "{5A82BD06-19BB-4F51-9D6F-587A361D64AF}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PlaybackComponent.UI", "PlaybackComponent.UI\PlaybackComponent.UI.csproj", "{B4EFA29B-97F3-451A-81E8-B0CE6E944887}"
 EndProject

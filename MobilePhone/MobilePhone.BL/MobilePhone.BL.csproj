@@ -50,10 +50,12 @@
     <Compile Include="MobilePhone.Base.BL\KeyBoard.cs" />
     <Compile Include="MobilePhone.Base.BL\MobilePhone.cs" />
     <Compile Include="MobilePhone.Base.BL\OLEDScreen.cs" />
+    <Compile Include="MobilePhone.Services.BL\Message.cs" />
     <Compile Include="MobilePhone.Services.BL\PhoneHeadset.cs" />
     <Compile Include="MobilePhone.Services.BL\PhoneSpeaker.cs" />
     <Compile Include="MobilePhone.Services.BL\PlaybackFactory.cs" />
     <Compile Include="MobilePhone.Services.BL\SMSProvider.cs" />
+    <Compile Include="MobilePhone.Services.BL\SMSStorage.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="MobilePhone.Base.BL\ScreenBase.cs" />
     <Compile Include="MobilePhone.SimCorp.BL\SimCorpMobile.cs" />
