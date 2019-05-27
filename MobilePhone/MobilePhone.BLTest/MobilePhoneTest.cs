@@ -1,11 +1,11 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using MobilePhone.BL;
-using MobilePhone.Common;
 using MessageFormatting.UI;
 using System.Text;
 using System.Globalization;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace MobilePhone.BLTest
 {
@@ -177,6 +177,68 @@ namespace MobilePhone.BLTest
             // -- Act
             smsStorage.ReceiveMessage(meessage);
             var actual = smsStorage.MessageList.Count;
+
+            // -- Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void MobilePhoneBatteryFull()
+        {
+            // -- Arrange
+            var mobilePhone = new SimCorpMobile();
+            mobilePhone.Battery.Charge = 120;
+            var expected = 100;
+
+            // -- Act
+            var actual = mobilePhone.Battery.Charge;
+
+            // -- Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void MobilePhoneBatteryZero()
+        {
+            // -- Arrange
+            var mobilePhone = new SimCorpMobile();
+            mobilePhone.Battery.Charge = -120;
+            var expected = 0;
+
+            // -- Act
+            var actual = mobilePhone.Battery.Charge;
+
+            // -- Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void MobilePhoneBatteryChange()
+        {
+            // -- Arrange
+            var form = new FormMessageFormating();
+            form.mobile.Battery.Charge = 50;
+            var expected = 100;
+
+            // -- Act
+            Task.WaitAll(form.batteryCharge());
+            var actual = form.mobile.Battery.Charge;
+
+            // -- Assert
+            Assert.AreEqual(expected, actual);
+        }
+
+        [TestMethod]
+        public void MobilePhoneBatteryUnChange()
+        {
+            // -- Arrange
+            var form = new FormMessageFormating();
+            form.mobile.Battery.Charge = 50;
+            var expected = 0;
+
+            // -- Act
+            Task.WaitAll(form.batteryUnCharge());
+            var actual = form.mobile.Battery.Charge;
 
             // -- Assert
             Assert.AreEqual(expected, actual);

@@ -4,12 +4,11 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Drawing;
 using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.Windows.Threading;
 
 namespace MessageFormatting.UI
 {
@@ -26,11 +25,13 @@ namespace MessageFormatting.UI
         private delegate MessageFormat SetMessageFormatDelegate();
         private List<string> providers = new List<string> { "Simcorp", "Vodafone", "KiyvStar" };
         private SMSStorage smsStorage = new SMSStorage();
+        public SimCorpMobile mobile = new SimCorpMobile();
 
         public FormMessageFormating()
         {
             InitializeComponent();
             InitializeComboBox();
+            groupBoxProgress.Text = Properties.Resources.ChargeLevelText;
         }
 
         private void InitializeComboBox()
@@ -199,6 +200,78 @@ namespace MessageFormatting.UI
             }
 
             return query;
+        }
+
+        private async void buttonCharge_Click(object sender, EventArgs e)
+        {
+
+            buttonChargeSetActive(false);
+            await batteryCharge();
+            await batteryUnCharge();
+            buttonChargeSetActive(true);
+        }
+
+        public Task batteryCharge()
+        {
+            return Task.Run(() =>
+            {
+                for (int i = 0; i < 100; i++)
+                {
+                    mobile.Battery.Charge += 1;
+                    Thread.Sleep(100);
+                    progressBarChargeSet();
+                }
+            });
+        }
+
+        public Task batteryUnCharge()
+        {
+            return Task.Run(() =>
+            {
+                for (int i = 0; i < 100; i++)
+                {
+                    mobile.Battery.Charge -= 1;
+                    Thread.Sleep(100);
+                    progressBarChargeSet();
+                }
+            });
+        }
+
+        private void progressBarChargeSet()
+        {
+            if (comboBoxSelectFormatting.InvokeRequired == true)
+            {
+                progressBarCharge.BeginInvoke(new Action(() =>
+                {
+                    progressBarChangeShowUpdate();
+                }));
+            }
+            else
+            {
+                progressBarChangeShowUpdate();
+            }
+        }
+
+        private void progressBarChangeShowUpdate()
+        {
+            progressBarCharge.Value = mobile.Battery.Charge;
+            groupBoxProgress.Text = Properties.Resources.ChargeLevelText + mobile.Battery.Charge.ToString() + "%";
+        }
+
+        private void buttonChargeSetActive(bool activeState)
+        {
+
+            if (comboBoxSelectFormatting.InvokeRequired == true)
+            {
+                buttonCharge.BeginInvoke(new Action(() =>
+                {
+                    buttonCharge.Enabled = activeState;
+                }));
+            }
+            else
+            {
+                buttonCharge.Enabled = activeState;
+            }
         }
     }
 }
